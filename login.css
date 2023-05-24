@@ -1,0 +1,64 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+img{
+    opacity: 0.5;
+}
+::before{
+    content: "";
+    position: absolute;
+    background-size: auto;
+}
+h1{
+    color: gray;
+}
+fieldset{
+    background-color: rgba(202, 190, 175, 0.829);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: px; 
+    font-family: Arial, sans-serif;
+}
+input {
+    border-radius: 5PX;
+    float: left;
+    margin-left: 3px;
+    color: black;
+    font-family: cursive;
+}
+label {
+    float: left;
+    margin-left: 20px;
+}
+button {
+    color: black;
+    float: left;
+    margin-left: 180px;
+    border-radius: 7px;
+  }
+  
+button:hover {
+    color: rgb(155, 3, 28);
+}
+footer{
+    text-align: center;
+}
+
+
+a {
+    text-decoration: overline;
+    float: right;
+}
+a:hover {
+    color: rgb(146, 10, 10);
+}
+legend {
+    color: black;
+}
